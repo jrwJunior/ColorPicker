@@ -1,0 +1,36 @@
+.palettes {
+  width: 150px;
+}
+
+.palettes-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  padding: 5px;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+  transition: color 0.15s;
+
+  .box-color {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+  }
+
+  &:hover {
+    color: rgba(#000,0.4);
+  }
+}
+
+.dropdown {
+  display: flex;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

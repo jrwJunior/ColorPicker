@@ -1,0 +1,26 @@
+input.ant-input {
+  padding: 8px 11px;
+  font-weight: 500;
+  color:#757575;
+}
+
+.input-picker.ant-input-affix-wrapper {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.preview-color {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.15s, opacity 0.15s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}

@@ -1,0 +1,83 @@
+.sliders {
+  width: 250px;
+}
+
+.slider-item {
+  display: flex;
+  align-items: center;
+}
+
+.slider-value {
+  width: 40px;
+  height: 22px;
+  margin-left: 15px;
+  background-color: #f1f1f1;
+  border: 0;
+  padding: 0 5px;
+}
+
+.ant-slider.slider {
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.ant-slider .ant-slider-rail {
+  height: 10px;
+  border-radius: 6px;
+}
+
+.ant-slider.slider-r .ant-slider-rail {
+  background: rgb(0,0,0);
+  background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 100%);
+}
+
+.ant-slider.slider-g .ant-slider-rail {
+  background: rgb(0,0,0);
+  background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(0,255,102,1) 100%);
+}
+
+.ant-slider.slider-b .ant-slider-rail {
+  background: rgb(0,0,0);
+  background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(0,146,255,1) 100%);
+}
+
+.ant-slider .ant-slider-track {
+  height: 10px;
+  background-color: transparent;
+}
+
+.slider.ant-slider:hover .ant-slider-track {
+  background-color: transparent;
+}
+
+.ant-slider .ant-slider-handle {
+  width: 22px;
+  height: 22px;
+  margin-top: -7px;
+  border: 0;
+  box-shadow: 0 0 6px 1px rgba(#000,0.2);
+}
+
+.ant-slider .ant-slider-handle:focus {
+  border: 0;
+  box-shadow: 0 0 6px 1px rgba(#000,0.2);
+}
+
+.buttons {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.ant-btn-primary.btn-cancel {
+  background: #757575;
+  border-color: #757575;
+}
+
+.ant-btn-primary.btn-cancel:hover, .ant-btn-primary.btn-cancel:focus {
+  background: lighten(#757575, 10%);
+  border-color: lighten(#757575, 10%);
+}
+
+.btn-cancel {
+  margin-right: 12px;
+}
